@@ -1,9 +1,1 @@
-pull_request_rules:
-  - name: vm2 fast-forward required-review parity f8k2
-    conditions:
-      - base = main
-      - title = VM2_FF_REVIEW_F8K2
-      - label = vm2-ff-finalize-f8k2
-    actions:
-      merge:
-        method: fast-forward
+pull_request_rules: []
