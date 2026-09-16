@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: vm2 org parent midflight freshness f8k2
+    conditions:
+      - base = main
+      - title = VM2_ORG_RULESET_FRESH_F8K2
+      - label = vm2-org-ruleset-finalize-f8k2
+    actions:
+      merge:
+        method: merge
